@@ -1,0 +1,17 @@
+#[Q1]
+the_datanum = [ 45, 223, 87, 56, 1, 4, 89 ]
+the_datanum.sort()
+print(the_datanum[6])
+#[Q2]
+print(the_datanum[5])
+#[Q3]
+the_datanum1 = [9,24,85,12,89,554,91]
+new_list = the_datanum + the_datanum1
+new_list.sort()
+print(new_list)
+#[Q4]
+first = new_list[0]
+last  = new_list[-1]
+new_list[0] = last
+new_list[-1]= first
+print(new_list)
